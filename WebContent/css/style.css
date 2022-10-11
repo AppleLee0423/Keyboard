@@ -1,0 +1,11 @@
+.nav-item:hover {
+	background-color: rgba(108,117,125,0.1);
+}
+.col-md-5 p-lg-5 mx-auto my-5{
+	position: relative;
+	z-index: 2; 
+}
+.img {
+	position: relative;
+	z-index: 1;
+}
