@@ -13,7 +13,8 @@ header .top > div{
 	float: right;
 }
 header .control {
-	padding: 31px 0 0;
+	float: left;
+	padding: 31px 24px 0 0;
 }
 header .control h2{
 	float: left;
@@ -43,4 +44,24 @@ header .control li button {
 	border-radius: 36px;
 	box-sizing: border-box;
 }
-header .sns
+header .sns {
+	float: left;
+	position: relative;
+	padding: 27px 0 0 7px;
+}
+header .sns:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 1px;
+	height: 30px;
+	background-color: #e3e3e3; 
+}
+header .sns li {
+	float: left;
+	padding: 0 0 0 12px;
+}
+header .sns li img {
+	width: 46px;
+}
